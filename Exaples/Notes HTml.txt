@@ -1,0 +1,6 @@
+Sementic = Relating to meaning in language or logic
+Semantic HTML element - Element that inplies some meaning to the content.
+  * Human or machine can understand meaning of the content surrounded by a Semantic element better
+  
+  HTMl entities used to write < > & in our doc
+  
