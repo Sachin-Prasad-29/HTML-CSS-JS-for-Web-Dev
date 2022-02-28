@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Absolute and relative</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 20px;
+        padding: 0px;
+      }
+      p {
+        width: 300px;
+        height: 300px;
+        font-size: 150%;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      h1 {
+        margin-bottom: 20px;
+        margin-top: 40px;
+      }
+      #p1 {
+        background-color: rgb(128, 4, 0);
+      }
+      #p2 {
+        background-color: rgb(71, 16, 223);
+      }
+      #p3 {
+        background-color: rgb(231, 19, 150);
+      }
+      #p4 {
+        background-color: rgb(164, 196, 22);
+      }
+      #tag {
+        background-color: brown;
+        width: 40px;
+        height: 40px;
+        border: 2px solid black;
+        text-align: center;
+        border-radius: 50%;
+        position: fixed;
+        left: 1100px;
+        top: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is Absolute and Relative webpage</h1>
+    <div id="content">
+      <p id="p1"></p>
+      <p id="p2">
+        So absolute means its space gone and its space is taken by other element
+      </p>
+      <p id="p3">
+        In relative the space was maintained by the element but the postion got
+        changes based on top and left values
+      </p>
+      <p id="p4">In fixed the position got fixed even the page is scrolling</p>
+      <p id="tag">top</p>
+    </div>
+  </body>
+</html>
+
+<!––  ––>
