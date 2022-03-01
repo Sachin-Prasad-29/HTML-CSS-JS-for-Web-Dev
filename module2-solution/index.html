@@ -1,0 +1,123 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        body{
+            
+            padding: 0;
+
+            
+        }
+        h1 {
+            text-align: center;
+            margin: 25px;
+        }
+      .row {
+        
+      }
+      .div1, .div2, .div3{
+            
+            border: 4px solid rgb(0, 0, 0);
+            float: left;
+            margin: 10px;
+            background-color: cadetblue;
+            
+      }
+      .contant{
+          clear: right;
+          padding-top: 3px;
+          margin: 7px;
+          
+      }
+      @media (min-width: 992px) {
+        .div1, .div2, .div3{
+            width: 30%;
+        }
+        
+      }
+
+      /********** Medium devices only **********/
+      @media (min-width: 768px) and (max-width: 991px) {
+        .div1, .div2 {
+            width: 47%;
+            float: left;
+        }
+        .div3{
+            width:96%;
+        }
+      }
+
+      @media (max-width: 767px) {
+        
+        
+      }
+
+     
+      .titleName {
+        float: right;
+        width: 140px;
+        height: 30px;
+        left: 0px;
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;
+        padding-left: 25px;
+        padding-top: 2px;
+        font-size: 110%;
+      }
+      .t1{
+        background-color: yellow;
+      }
+      .t2{
+        background-color: rgb(224, 92, 15);
+      }
+      .t3{
+        background-color: rgb(9, 107, 235);
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Game Zone</h1>
+    <div class="row">
+
+      <div class="div1">
+        <div class="titleName t1"> Game 1</div>
+        <div class="contant">
+            Spacing: Pay attention to the spacing shown in the mockup illustrations.
+            Note the spacing between sections (both horizontal and vertical). Note
+            the horizontal spacing between the edges of the section and the edges of
+            the browser window. 
+        </div>
+       
+      </div>
+
+      <div class="div2">
+        <div class="titleName t2">Game 2</div>
+        <div class="contant">
+            Spacing: Pay attention to the spacing shown in the mockup illustrations.
+            Note the spacing between sections (both horizontal and vertical). Note
+            the horizontal spacing between the edges of the section and the edges of
+            the browser window.
+        </div>
+      </div>
+
+      <div class="div3">
+        <div class="titleName t3">Game 3</div>
+        <div class="contant">
+            Spacing: Pay attention to the spacing shown in the mockup illustrations.
+            Note the spacing between sections (both horizontal and vertical). Note
+            the horizontal spacing between the edges of the section and the edges of
+            the browser window.
+        </div>
+    </div>
+  </body>
+</html>
